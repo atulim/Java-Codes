@@ -26,7 +26,7 @@ public class Dijkstra {
         return index;
     }
  
-    
+    // printsolution is a function to print distance between vertex and source.
     void printSolution(int dist[], int n)
     {
         System.out.println("Vertex   Distance from Source");
