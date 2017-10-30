@@ -1,5 +1,5 @@
 /* Program for the classic dining philosopher problem in operating system */
-package javacodes;
+package javacodes; //Creates a package named javacodes which contains all the classes
 
 
 public class Dine{
