@@ -28,7 +28,7 @@ public class JavaDateAndTime {
           /**
            * Converts the String type day into integer type y using parseInt() method)
        */   
-        Calendar c = Calendar.getInstance();
+        Calendar c = Calendar.getInstance(); // The java.util.Calendar.getInstance() method gets a calendar using the specified time zone and specified locale.
         c.set(y, m-1, d); 
             
         int p = c.get(Calendar.DAY_OF_WEEK);
