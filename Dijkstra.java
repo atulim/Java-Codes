@@ -5,7 +5,8 @@ package javacodes;
 
 import java.util.*;
  
-public class Dijkstra {
+public class Dijkstra
+{
     
     static int V;
     
@@ -27,7 +28,7 @@ public class Dijkstra {
     }
  
     
-    void printSolution(int dist[], int n)
+    void printSolution(int dist[], int n) //Will print the distance of vertex from source
     {
         System.out.println("Vertex   Distance from Source");
         
